@@ -1,8 +1,8 @@
 ## Info about formulae in this tap:
 
-| Name  |                  Description                  |                                          Link |
-|:------|:---------------------------------------------:|----------------------------------------------:|
-| genin | Quick inventory creation for tarantool apps.  |             https://github.com/picodata/genin |
+| Name  |                  Description                   |                     Link                      |
+|:------|:----------------------------------------------:|:---------------------------------------------:|
+| genin | Quick inventory generation for tarantool apps. |       https://github.com/picodata/genin       |
 
 ## Authors
 
