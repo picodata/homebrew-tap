@@ -2,7 +2,7 @@ class Genin < Formula
   desc "Quick inventory generation for tarantool apps"
   homepage "https://github.com/picodata/genin"
   url "https://binary.picodata.io/repository/raw/genin/osx/genin-0.3.8-x86_64-macosx.tar.gz"
-  sha256 "ca769f53e8cf85b335f34ed5f678dfdddac0cef85009c1ca249856da8cfcf680"
+  sha256 "ebc7f7aa69a6f3847589defb089671e04b68ee25cb80ed68a52b1646c06854ee"
   license "BSD-2-Clause license"
 
   def install
