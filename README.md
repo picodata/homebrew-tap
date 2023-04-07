@@ -1,9 +1,9 @@
 ## Info about formulae in this tap:
 
-| Name      |                              Description                              |                                  Link                                   |
-|:----------|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
-| genin     |            Quick inventory generation for tarantool apps.             |                    https://github.com/picodata/genin                    |
-| tarantool | Picodata fork tarantool in-memory database and Lua application server |  https://git.picodata.io/picodata/tarantool/-/tree/2.10.5-picodata/src  |
+| Name               |                              Description                              |                                  Link                                   |
+|:-------------------|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
+| genin              |            Quick inventory generation for tarantool apps.             |                    https://github.com/picodata/genin                    |
+| tarantool-picodata | Picodata fork tarantool in-memory database and Lua application server |  https://git.picodata.io/picodata/tarantool/-/tree/2.10.5-picodata/src  |
 
 ## Authors
 
