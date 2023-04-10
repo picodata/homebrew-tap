@@ -2,7 +2,7 @@ class TarantoolPicodataAT210 < Formula
   desc "Picodata fork tarantool in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://binary.picodata.io/repository/raw/brew/packages/tarantool-picodata-2.10.5.17.tar.gz"
-  sha256 "375cdaa3787ceb819d1f6039097ddb1ea58060ab6c1f6b8b83ec93cb175500f7"
+  sha256 "b7c356d8d0c4f9cb1a84f1f79e770819862d421ddd790ca2d7e115fb873dfb06"
   license "BSD-2-Clause"
   version_scheme 1
   head "https://git.picodata.io/picodata/tarantool.git", branch: "2.10.5-picodata"
