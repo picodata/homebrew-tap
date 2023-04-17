@@ -14,9 +14,9 @@ class TarantoolPicodata < Formula
 
   bottle do
     root_url "https://binary.picodata.io/repository/raw/brew/bottle"
-    sha256 cellar: :any,  arm64_ventura:    "225bda121a25c9edf895c46dc7b71348d8cf3f8a3a9bc8241a65aca37b39a057"
-    sha256 cellar: :any,  arm64_monterey:   "225bda121a25c9edf895c46dc7b71348d8cf3f8a3a9bc8241a65aca37b39a057"
-    sha256 cellar: :any,  arm64_big_sur:    "225bda121a25c9edf895c46dc7b71348d8cf3f8a3a9bc8241a65aca37b39a057"
+    sha256 cellar: :any,  arm64_ventura:    "7ce5059828786b1ae398ddb25a7ef08f32ee068b7a35be5a8dd819deb3110686"
+    sha256 cellar: :any,  arm64_monterey:   "7ce5059828786b1ae398ddb25a7ef08f32ee068b7a35be5a8dd819deb3110686"
+    sha256 cellar: :any,  arm64_big_sur:    "7ce5059828786b1ae398ddb25a7ef08f32ee068b7a35be5a8dd819deb3110686"
   end
 
   depends_on "cmake" => :build
