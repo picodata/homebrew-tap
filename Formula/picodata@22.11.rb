@@ -14,9 +14,9 @@ class PicodataAT2211 < Formula
 
   bottle do
     root_url "https://binary.picodata.io/repository/raw/brew/bottle"
-    sha256 cellar: :any,  arm64_ventura:    "7fba9cc3bfd3703b565c51c321a86a355149df92d6ed1ea4d410e825e719d4b9"
-    sha256 cellar: :any,  arm64_monterey:   "7fba9cc3bfd3703b565c51c321a86a355149df92d6ed1ea4d410e825e719d4b9"
-    sha256 cellar: :any,  arm64_big_sur:    "7fba9cc3bfd3703b565c51c321a86a355149df92d6ed1ea4d410e825e719d4b9"
+    sha256 cellar: :any,  arm64_ventura:    "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
+    sha256 cellar: :any,  arm64_monterey:   "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
+    sha256 cellar: :any,  arm64_big_sur:    "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
   end
 
   depends_on "cmake" => :build
