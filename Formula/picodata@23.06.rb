@@ -1,8 +1,8 @@
 class PicodataAT2211 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
-  url "https://binary.picodata.io/repository/raw/brew/packages/picodata-22.11.0.214.tar.gz"
-  sha256 "883570d71b863bcc5db0fcead53005c9725645419d90cd27df3a310fa54aad2b"
+  url "https://binary.picodata.io/repository/raw/brew/packages/picodata-23.06.0.78.tar.gz"
+  sha256 "eb8c2fcec8dc56e0f8ed8105aa2091bad387776378165be6a3b8d4e65baf158b"
   license "BSD-2-Clause"
   version_scheme 1
   head "https://git.picodata.io/picodata/picodata/picodata.git", branch: "master"
@@ -14,9 +14,9 @@ class PicodataAT2211 < Formula
 
   bottle do
     root_url "https://binary.picodata.io/repository/raw/brew/bottle"
-    sha256 cellar: :any,  arm64_ventura:    "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
-    sha256 cellar: :any,  arm64_monterey:   "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
-    sha256 cellar: :any,  arm64_big_sur:    "7ff8eadfe6feae6d7fd0288f9b46bf802958f39ab86f6ce49927ce078f5362c0"
+    sha256 cellar: :any,  arm64_ventura:    "a965ab546092dde6c24e897c3859c4e1f063709ffd1643eb00ece8b10f90948d"
+    sha256 cellar: :any,  arm64_monterey:   "a965ab546092dde6c24e897c3859c4e1f063709ffd1643eb00ece8b10f90948d"
+    sha256 cellar: :any,  arm64_big_sur:    "a965ab546092dde6c24e897c3859c4e1f063709ffd1643eb00ece8b10f90948d"
   end
 
   depends_on "cmake" => :build
