@@ -1,4 +1,4 @@
-class GeninAT038 < Formula
+class GeninAT0421 < Formula
   desc "Quick inventory generation for tarantool apps"
   homepage "https://github.com/picodata/genin"
   url "https://binary.picodata.io/repository/raw/genin/osx/genin-0.4.21~rc-x86_64-macosx.tar.gz"
