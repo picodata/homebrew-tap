@@ -1,4 +1,4 @@
-class TarantoolPicodataAT210 < Formula
+class TarantoolPicodataAT211 < Formula
   desc "Picodata fork tarantool in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://binary.picodata.io/repository/raw/brew/packages/tarantool-picodata-2.11.2.98.tar.gz"

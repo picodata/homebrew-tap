@@ -1,4 +1,4 @@
-class PicodataAT2306 < Formula
+class PicodataAT241 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://binary.picodata.io/repository/raw/brew/packages/picodata-24.1.1.0.tar.gz"
