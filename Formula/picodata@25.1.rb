@@ -17,6 +17,8 @@ class PicodataAT251 < Formula
     sha256 cellar: :any,  arm64_ventura:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
     sha256 cellar: :any,  arm64_monterey:   "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
     sha256 cellar: :any,  arm64_big_sur:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
+    sha256 cellar: :any,  arm64_sonoma:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
+    sha256 cellar: :any,  arm64_sequoia:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
   end
 
   depends_on "cmake" => :build
