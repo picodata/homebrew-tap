@@ -17,8 +17,14 @@ class PicodataAT251 < Formula
     sha256 cellar: :any,  arm64_ventura:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
     sha256 cellar: :any,  arm64_monterey:   "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
     sha256 cellar: :any,  arm64_big_sur:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
-    sha256 cellar: :any,  arm64_sonoma:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
+    sha256 cellar: :any,  arm64_sonoma:     "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
     sha256 cellar: :any,  arm64_sequoia:    "b2f3bf3069424ad41beda14b5d54fcb63002ddd08d2dae4a8cd73195b969caff"
+    sha256 cellar: :any,  ventura:          "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
+    sha256 cellar: :any,  monterey:         "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
+    sha256 cellar: :any,  big_sur:          "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
+    sha256 cellar: :any,  sonoma:           "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
+    sha256 cellar: :any,  sequoia:          "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
+    sha256 cellar: :any,  x86_64_linux:     "5b903dad6d1bfbbdbe4599f76161247bf8258e93a1ef8d585eec8a7ea9c3bdc1"
   end
 
   depends_on "cmake" => :build
