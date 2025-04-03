@@ -55,7 +55,7 @@ brew install picodata@25.1
 
 ## Authors
 
-- **Dmitry Travyan**
+- **Picodata LLC**
 
 © 2020-2025 Picodata.io https://github.com/picodata
 
