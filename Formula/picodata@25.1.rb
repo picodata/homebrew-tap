@@ -1,7 +1,7 @@
 class PicodataAT251 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
-  url "https://download.picodata.io/tarantool-picodata/macos/picodata-25.1.1-0-g38230552.tar.gz"
+  url "https://download.picodata.io/tarantool-picodata/macos/picodata-25.1.1.0.tar.gz"
   sha256 "4e7089d65c8bc9445b0b50e8039498fc38c567b2554a6e351ba0ddf68923fdfb"
   license "BSD-2-Clause"
   version_scheme 1
