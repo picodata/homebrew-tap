@@ -1,8 +1,8 @@
 class PicodataAT252 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
-  url "https://download.picodata.io/tarantool-picodata/macos/picodata-25.2.1.0.tar.gz"
-  sha256 "32e4a0e8f64ff3e8c7df4758428bc9e23f43a0d583d0c1c6b0541d4fcce74483"
+  url "https://download.picodata.io/tarantool-picodata/macos/picodata-25.2.1.0.tar.xz"
+  sha256 "568a316af024da6cec396b7cc24bc1cc800b093acb809fdb8e1d10275d84008c"
   license "BSD-2-Clause"
   version_scheme 1
   head "https://git.picodata.io/core/picodata.git", branch: "25.2.1"
@@ -14,11 +14,16 @@ class PicodataAT252 < Formula
 
   bottle do
     root_url "https://download.picodata.io/tarantool-picodata/macos/"
-    sha256 cellar: :any,  arm64_ventura:    "531e128045063d6930fcf216345acc683f8f81bbeae3527183afe639851c36e9"
-    sha256 cellar: :any,  arm64_monterey:   "531e128045063d6930fcf216345acc683f8f81bbeae3527183afe639851c36e9"
-    sha256 cellar: :any,  arm64_big_sur:    "531e128045063d6930fcf216345acc683f8f81bbeae3527183afe639851c36e9"
-    sha256 cellar: :any,  arm64_sonoma:     "531e128045063d6930fcf216345acc683f8f81bbeae3527183afe639851c36e9"
-    sha256 cellar: :any,  arm64_sequoia:    "531e128045063d6930fcf216345acc683f8f81bbeae3527183afe639851c36e9"
+    sha256 cellar: :any,  arm64_ventura:    "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f"
+    sha256 cellar: :any,  arm64_monterey:   "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f"
+    sha256 cellar: :any,  arm64_big_sur:    "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f"
+    sha256 cellar: :any,  arm64_sonoma:     "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f"
+    sha256 cellar: :any,  arm64_sequoia:    "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f"
+    sha256 cellar: :any,  ventura:    "e18fc95b000c8c569ca28c7ea43930055a6876d506dda052d35257eb13da2c5a"
+    sha256 cellar: :any,  monterey:   "e18fc95b000c8c569ca28c7ea43930055a6876d506dda052d35257eb13da2c5a"
+    sha256 cellar: :any,  big_sur:    "e18fc95b000c8c569ca28c7ea43930055a6876d506dda052d35257eb13da2c5a"
+    sha256 cellar: :any,  sonoma:     "e18fc95b000c8c569ca28c7ea43930055a6876d506dda052d35257eb13da2c5a"
+    sha256 cellar: :any,  sequoia:    "e18fc95b000c8c569ca28c7ea43930055a6876d506dda052d35257eb13da2c5a"
   end
 
   depends_on "cmake" => :build
