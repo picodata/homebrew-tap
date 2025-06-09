@@ -1,4 +1,4 @@
-class PicodataAT252 < Formula
+class PicodataAT2521 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://download.picodata.io/tarantool-picodata/sources/picodata-25.2.1.0.tar.xz"
