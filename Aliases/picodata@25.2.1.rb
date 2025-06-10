@@ -1,1 +1,0 @@
-../Formula/picodata@25.2.1.rb
