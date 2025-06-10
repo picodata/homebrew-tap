@@ -14,7 +14,7 @@ class PicodataAT2521 < Formula
 
   bottle do
     root_url "https://download.picodata.io/tarantool-picodata/macos"
-    sha256 cellar: :any,  arm64_ventura:    "48b75582741d5ae6f32281bb6358bf6362225401ffa908f31e124428ee923aa4", tag: :xz
+    sha256 cellar: :any,  arm64_ventura:    "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
     sha256 cellar: :any,  arm64_monterey:   "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f", tag: :xz
     sha256 cellar: :any,  arm64_big_sur:    "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f", tag: :xz
     sha256 cellar: :any,  arm64_sonoma:     "5fb8e73f3f4d680cf16d53c61d2a264911371e21e413ba220026e0e2b2ae981f", tag: :xz
