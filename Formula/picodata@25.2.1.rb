@@ -2,7 +2,7 @@ class PicodataAT2521 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://download.picodata.io/tarantool-picodata/sources/picodata-25.2.1.0.tar.xz"
-  sha256 "568a316af024da6cec396b7cc24bc1cc800b093acb809fdb8e1d10275d84008c"
+  sha256 "e6a77ce8d6d8373fefce398a8c327dea82eff061c00ecff2662c42847b8645c9"
   license "BSD-2-Clause"
   version_scheme 1
   head "https://git.picodata.io/core/picodata.git", branch: "25.2.1"
