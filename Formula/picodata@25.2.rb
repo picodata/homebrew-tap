@@ -1,4 +1,4 @@
-class PicodataAT2521 < Formula
+class PicodataAT252 < Formula
   desc "Picodata in-memory database and Lua application server"
   homepage "https://picodata.io/"
   url "https://download.picodata.io/tarantool-picodata/sources/picodata-25.2.1.0.tar.xz"
@@ -14,16 +14,16 @@ class PicodataAT2521 < Formula
 
   bottle do
     root_url "https://download.picodata.io/tarantool-picodata/macos"
-    sha256 cellar: :any,  arm64_ventura:    "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
-    sha256 cellar: :any,  arm64_monterey:   "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
-    sha256 cellar: :any,  arm64_big_sur:    "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
-    sha256 cellar: :any,  arm64_sonoma:     "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
-    sha256 cellar: :any,  arm64_sequoia:    "c5554833678f6038ff39ce42a9d2d2bfabdbfc27c7bd1add27c4ac24dca77d5a", tag: :xz
-    sha256 cellar: :any,  x86_ventura:      "939aea8406e6ee7dff56e53d35b3879b67672fb761881593d6991b159cba135a", tag: :xz
-    sha256 cellar: :any,  x86_monterey:     "939aea8406e6ee7dff56e53d35b3879b67672fb761881593d6991b159cba135a", tag: :xz
-    sha256 cellar: :any,  x86_big_sur:      "939aea8406e6ee7dff56e53d35b3879b67672fb761881593d6991b159cba135a", tag: :xz
-    sha256 cellar: :any,  x86_sonoma:       "939aea8406e6ee7dff56e53d35b3879b67672fb761881593d6991b159cba135a", tag: :xz
-    sha256 cellar: :any,  x86_sequoia:      "939aea8406e6ee7dff56e53d35b3879b67672fb761881593d6991b159cba135a", tag: :xz
+    sha256 cellar: :any,  arm64_ventura:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  arm64_monterey:   "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  arm64_big_sur:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  arm64_sonoma:     "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  arm64_sequoia:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  ventura:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
+    sha256 cellar: :any,  monterey:         "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
+    sha256 cellar: :any,  big_sur:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
+    sha256 cellar: :any,  sonoma:           "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
+    sha256 cellar: :any,  sequoia:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
   end
 
   depends_on "cmake" => :build
