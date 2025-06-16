@@ -19,11 +19,11 @@ class PicodataAT252 < Formula
     sha256 cellar: :any,  arm64_big_sur:    "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
     sha256 cellar: :any,  arm64_sonoma:     "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
     sha256 cellar: :any,  arm64_sequoia:    "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
-    sha256 cellar: :any,  ventura:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
-    sha256 cellar: :any,  monterey:         "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
-    sha256 cellar: :any,  big_sur:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
-    sha256 cellar: :any,  sonoma:           "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
-    sha256 cellar: :any,  sequoia:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
+    sha256 cellar: :any,  ventura:          "5cd1e57f5720a2f0b9e005cc7cd24fafdb26ec1c8e06216ac36dd5a5e7f7b559"
+    sha256 cellar: :any,  monterey:         "5cd1e57f5720a2f0b9e005cc7cd24fafdb26ec1c8e06216ac36dd5a5e7f7b559"
+    sha256 cellar: :any,  big_sur:          "5cd1e57f5720a2f0b9e005cc7cd24fafdb26ec1c8e06216ac36dd5a5e7f7b559"
+    sha256 cellar: :any,  sonoma:           "5cd1e57f5720a2f0b9e005cc7cd24fafdb26ec1c8e06216ac36dd5a5e7f7b559"
+    sha256 cellar: :any,  sequoia:          "5cd1e57f5720a2f0b9e005cc7cd24fafdb26ec1c8e06216ac36dd5a5e7f7b559"
   end
 
   depends_on "cmake" => :build
