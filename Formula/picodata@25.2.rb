@@ -14,11 +14,11 @@ class PicodataAT252 < Formula
 
   bottle do
     root_url "https://download.picodata.io/tarantool-picodata/macos"
-    sha256 cellar: :any,  arm64_ventura:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
-    sha256 cellar: :any,  arm64_monterey:   "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
-    sha256 cellar: :any,  arm64_big_sur:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
-    sha256 cellar: :any,  arm64_sonoma:     "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
-    sha256 cellar: :any,  arm64_sequoia:    "ce7b6714e4aa262d83b408dfcdd76460343b7bec565e2d0bcb213c8f578bc920", tag: :xz
+    sha256 cellar: :any,  arm64_ventura:    "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
+    sha256 cellar: :any,  arm64_monterey:   "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
+    sha256 cellar: :any,  arm64_big_sur:    "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
+    sha256 cellar: :any,  arm64_sonoma:     "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
+    sha256 cellar: :any,  arm64_sequoia:    "64e62a4bff94d73c8d64154c18b125b468384a736afa0fe1343c26039546d512"
     sha256 cellar: :any,  ventura:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
     sha256 cellar: :any,  monterey:         "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
     sha256 cellar: :any,  big_sur:          "e8fee71744d65959bd3c4965b8901a1336bf98f12bb5edaeee41293fe3fdf1fd"
