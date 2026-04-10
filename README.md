@@ -50,14 +50,14 @@ brew install genin@0.3.8
 brew install tarantool-picodata@2.10
 
 # picodata
-brew install picodata@25.2
+brew install picodata@26.1
 ```
 
 ## Authors
 
 - **Picodata LLC**
 
-© 2020-2025 Picodata.io https://github.com/picodata
+© 2020-2026 Picodata.io https://github.com/picodata
 
 ## License
 
